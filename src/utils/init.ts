@@ -5,7 +5,7 @@ import { loader } from '@monaco-editor/react';
 export function init(version: string) {
   // sentry监控 init
   Sentry.init({
-    dsn: 'https://3406424fb1dc4813a62d39e844a9d0ac@o1098464.ingest.sentry.io/6122818',
+    dsn: 'https://297decf0eced9a86566b6e249dbca12a@o4505666818015232.ingest.sentry.io/4505667055976448',
     integrations: [
       new Integrations.BrowserTracing({
         shouldCreateSpanForRequest(url) {

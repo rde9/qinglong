@@ -16,7 +16,7 @@ export default async ({ expressApp }: { expressApp: Application }) => {
       /UnauthorizedError/i,
       /celebrate request validation failed/i,
     ],
-    dsn: 'https://f4b5b55fb3c645b29a5dc2d70a1a4ef4@o1098464.ingest.sentry.io/6122819',
+    dsn: 'https://b5f5f0260ac751d58e71ea584da7ff98@o4505666818015232.ingest.sentry.io/4505666827911168',
     integrations: [
       new Sentry.Integrations.Http({ tracing: true }),
       new Tracing.Integrations.Express({ app: expressApp }),
